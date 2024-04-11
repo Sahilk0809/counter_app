@@ -47,117 +47,119 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           body: Align(
-            child: Column(
-              children: [
-                scrollRow(
+            child: SingleChildScrollView(
+              child: Column(
+                children: [
+                  scrollRow(
+                      i1: const Icon(
+                        Icons.add,
+                        size: 35,
+                      ),
+                      i2: const Icon(
+                        Icons.media_bluetooth_on,
+                        size: 35,
+                      ),
+                      i3: const Icon(
+                        Icons.arrow_back_ios_new,
+                        size: 35,
+                      ),
+                      i4: const Icon(
+                        Icons.arrow_forward_ios,
+                        size: 35,
+                      )),
+                  // scrollRow(),
+                  scrollRow(
                     i1: const Icon(
-                      Icons.add,
+                      Icons.verified_user_rounded,
                       size: 35,
                     ),
                     i2: const Icon(
-                      Icons.media_bluetooth_on,
+                      Icons.account_circle_outlined,
                       size: 35,
                     ),
                     i3: const Icon(
-                      Icons.arrow_back_ios_new,
+                      Icons.sync,
                       size: 35,
                     ),
                     i4: const Icon(
-                      Icons.arrow_forward_ios,
+                      Icons.close,
                       size: 35,
-                    )),
-                // scrollRow(),
-                scrollRow(
-                  i1: const Icon(
-                    Icons.verified_user_rounded,
-                    size: 35,
+                    ),
                   ),
-                  i2: const Icon(
-                    Icons.account_circle_outlined,
-                    size: 35,
+                  scrollRow(
+                    i1: const Icon(
+                      Icons.call,
+                      size: 35,
+                    ),
+                    i2: const Icon(
+                      Icons.more_vert,
+                      size: 35,
+                    ),
+                    i3: const Icon(
+                      Icons.arrow_circle_down_rounded,
+                      size: 35,
+                    ),
+                    i4: const Icon(
+                      Icons.play_arrow,
+                      size: 35,
+                    ),
                   ),
-                  i3: const Icon(
-                    Icons.sync,
-                    size: 35,
+                  scrollRow(
+                    i1: const Icon(
+                      Icons.pause,
+                      size: 35,
+                    ),
+                    i2: const Icon(
+                      Icons.stop,
+                      size: 35,
+                    ),
+                    i3: const Icon(
+                      Icons.trip_origin,
+                      size: 35,
+                    ),
+                    i4: const Icon(
+                      Icons.search,
+                      size: 35,
+                    ),
                   ),
-                  i4: const Icon(
-                    Icons.close,
-                    size: 35,
+                  scrollRow(
+                    i1: const Icon(
+                      Icons.app_blocking,
+                      size: 35,
+                    ),
+                    i2: const Icon(
+                      Icons.apps,
+                      size: 35,
+                    ),
+                    i3: const Icon(
+                      Icons.schedule,
+                      size: 35,
+                    ),
+                    i4: const Icon(
+                      Icons.school,
+                      size: 35,
+                    ),
                   ),
-                ),
-                scrollRow(
-                  i1: const Icon(
-                    Icons.call,
-                    size: 35,
+                  scrollRow(
+                    i1: const Icon(
+                      Icons.do_not_disturb_on_total_silence,
+                      size: 35,
+                    ),
+                    i2: const Icon(
+                      Icons.currency_exchange,
+                      size: 35,
+                    ),
+                    i3: const Icon(
+                      Icons.contact_support,
+                      size: 35,
+                    ),
+                    i4: const Icon(
+                      Icons.accessibility,
+                      size: 35,
+                    ),
                   ),
-                  i2: const Icon(
-                    Icons.more_vert,
-                    size: 35,
-                  ),
-                  i3: const Icon(
-                    Icons.arrow_circle_down_rounded,
-                    size: 35,
-                  ),
-                  i4: const Icon(
-                    Icons.play_arrow,
-                    size: 35,
-                  ),
-                ),
-                scrollRow(
-                  i1: const Icon(
-                    Icons.pause,
-                    size: 35,
-                  ),
-                  i2: const Icon(
-                    Icons.stop,
-                    size: 35,
-                  ),
-                  i3: const Icon(
-                    Icons.trip_origin,
-                    size: 35,
-                  ),
-                  i4: const Icon(
-                    Icons.search,
-                    size: 35,
-                  ),
-                ),
-                scrollRow(
-                  i1: const Icon(
-                    Icons.app_blocking,
-                    size: 35,
-                  ),
-                  i2: const Icon(
-                    Icons.apps,
-                    size: 35,
-                  ),
-                  i3: const Icon(
-                    Icons.schedule,
-                    size: 35,
-                  ),
-                  i4: const Icon(
-                    Icons.school,
-                    size: 35,
-                  ),
-                ),
-                scrollRow(
-                  i1: const Icon(
-                    Icons.do_not_disturb_on_total_silence,
-                    size: 35,
-                  ),
-                  i2: const Icon(
-                    Icons.currency_exchange,
-                    size: 35,
-                  ),
-                  i3: const Icon(
-                    Icons.contact_support,
-                    size: 35,
-                  ),
-                  i4: const Icon(
-                    Icons.accessibility,
-                    size: 35,
-                  ),
-                ),
-              ],
+                ],
+              ),
             ),
           ),
         ));
