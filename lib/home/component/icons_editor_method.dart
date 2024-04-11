@@ -38,7 +38,7 @@ Container colorBox({required c1}) {
   );
 }
 
-Container iconBox({required i1}) {
+Container iconBox({required IconData icon}) {
   return Container(
     alignment: Alignment.center,
     margin: const EdgeInsets.all(15),
@@ -57,7 +57,7 @@ Container iconBox({required i1}) {
         ),
       ],
     ),
-    child: i1,
+    child: Icon(icon,size: 40,),
   );
 }
 
@@ -69,34 +69,14 @@ List colorList = [
   Colors.grey
 ];
 Color selectColor = Colors.black;
-Icon selectIcons = const Icon(Icons.arrow_back_ios_new);
+
+IconData selectIcons = Icons.arrow_back_ios_new;
 List iconList = [
-  const Icon(
     Icons.add,
-    size: 40,
-  ),
-  const Icon(
     Icons.stop,
-    size: 40,
-  ),
-  const Icon(
     Icons.arrow_back_ios_new,
-    size: 40,
-  ),
-  const Icon(
     Icons.arrow_forward_ios,
-    size: 40,
-  ),
-  const Icon(
     Icons.alarm,
-    size: 40,
-  ),
-  const Icon(
     Icons.call,
-    size: 40,
-  ),
-  const Icon(
     Icons.search,
-    size: 40,
-  )
 ];
